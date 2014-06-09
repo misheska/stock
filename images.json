@@ -1,0 +1,532 @@
+[
+  {
+    "title": "Da Vinci bicep study",
+    "description": "Da Vinci's study of the anatomy of the upper arm and biceps", 
+    "filename": "411px-Studies_of_the_Arm_showing_the_Movements_made_by_the_Biceps.jpg"
+  }, 
+  {
+    "title": "Code Monkey", 
+    "description": "Code Monkey: programmer as ape", 
+    "filename": "Code_Monkey_colour.jpg"
+  }, 
+  {
+    "title": "Cup of Java", 
+    "description": "Cup of hot coffee with java code in the steam", 
+    "filename": "CupOfJava.jpg"
+  }, 
+  {
+    "title": "GOF design patterns authors", 
+    "description": "Authors of Design Patterns: Eric Gamma, Richard Helm, Ralph Johnson, John Vlissides ", 
+    "filename": "GOF-OOPLSA-94-Color-75.jpg"
+  }, 
+  {
+    "title": "Indiana Jones pinball machine", 
+    "description": "A pinball machine themed after the Indiana Jones movies", 
+    "filename": "Indiana_Jones_pinball_machine.jpg"
+  },
+  {
+    "title": "Little Buddies", 
+    "description": "Cartoons of small people with big heads", 
+    "filename": "LittleBuddies_Preview.jpg"
+  }, 
+  {
+    "title": "Digital PDP11 minicomputer", 
+    "description": "The historic Digital PDP-11 16-bit minicomputer ", 
+    "filename": "Pdp-11-40.jpg"
+  }, 
+  {
+    "title": "Rabin with Clinton at peace talks", 
+    "description": "Rabin at peace talks with Clinton", 
+    "filename": "Rabin_at_peace_talks.jpg"
+  }, 
+  {
+    "title": "Roadie", 
+    "description": "The humble roadie, gear-hauling hero of the touring band, rests on 4x15 bass speaker cabinet", 
+    "filename": "Roadie.jpg"
+  }, 
+  {
+    "title": "Recipe as Template Method", 
+    "description": "A recipe written with adjustable batch sizes as an example of template method", 
+    "filename": "TemplateMethod.jpg"
+  }, 
+  {
+    "title": "Diego Rivera's The Architect", 
+    "description": "Diego Rivera's impressionist study of an architect", 
+    "filename": "TheArchitect-DiegoRivera.jpg"
+  }, 
+  {
+    "title": "VU_Meter with no signal", 
+    "description": "The Volume Unit meter for monitoring recording levels on a mixing board", 
+    "filename": "VU_Meter.jpg"
+  }, 
+  {
+    "title": "Adapters", 
+    "description": "A row of 5 black adapters", 
+    "filename": "adapters.jpg"
+  }, 
+  {
+    "title": "A medieval allegory of good government", 
+    "description": "A medieval painting representing a model of effective government", 
+    "filename": "allegory-of-good-government-336-mid.jpg"
+  }, 
+  {
+    "title": "Medieval altarpiece", 
+    "description": "Medieval european altarpiece depicting St George and the dragon with the virgin and child above", 
+    "filename": "altarpiece-with-the-virgin-and-child-307-mid.jpg"
+  }, 
+  {
+    "title": "Audio jacks", 
+    "description": "Audio jacks and connectors", 
+    "filename": "audio.jpg"
+  }, 
+  {
+    "title": "Audio Wiring", 
+    "description": "Audio wiring connected to a large panel", 
+    "filename": "audioWiring.jpg"
+  }, 
+  {
+    "title": "Auto Factory Line", 
+    "description": "Automated production line at an automobile factory", 
+    "filename": "autoFactory.jpg"
+  }, 
+  {
+    "title": "Baggage carousel", 
+    "description": "Empty airport baggage carousel", 
+    "filename": "baggageCarousel.jpg"
+  }, 
+  {
+    "title": "Napoleon Bonaparte", 
+    "description": "Napoleon Bonaparte seated on his horse, leading his troops into battle", 
+    "filename": "baroque.jpg"
+  }, 
+  {
+    "title": "Business team crosses finish line", 
+    "description": "A business team crosses the finish line together with great success", 
+    "filename": "biz-people-at-finish-line.jpg"
+  }, 
+  {
+    "title": "Brian Foote", 
+    "description": "A photo of Brian Foote, artist", 
+    "filename": "brianFoote.jpg"
+  }, 
+  {
+    "title": "Construction worker", 
+    "description": "Construction worker measuring a section of beam", 
+    "filename": "builder.jpg"
+  }, 
+  {
+    "title": "Bundled pallets", 
+    "description": "Pallets of bundled pink sheets", 
+    "filename": "bundles.jpg"
+  }, 
+  {
+    "title": "Calculator", 
+    "description": "An old-fashioned calculator", 
+    "filename": "calculator.jpg"
+  }, 
+  {
+    "title": "Car In Snow", 
+    "description": "A blue car buried in snow", 
+    "filename": "carInSnow.jpg"
+  }, 
+  {
+    "title": "Circular Arrow", 
+    "description": "Golden man walking around a 123RF circular arrow", 
+    "filename": "circularArrow.jpg"
+  }, 
+  {
+    "title": "Cleaned Dishes", 
+    "description": "An empty sink next to a stack of freshly cleaned dishes", 
+    "filename": "cleanDishes.jpg"
+  }, 
+  {
+    "title": "Bank of computers", 
+    "description": "A bank of servers line an empty hallway", 
+    "filename": "computers.jpg"
+  }, 
+  {
+    "title": "Confused man", 
+    "description": "A confused man in a bow tie scratches his chin", 
+    "filename": "confused.jpg"
+  }, 
+  {
+    "title": "Cowardly Lion", 
+    "description": "The Cowardly Lion from the Wizard of Oz movie", 
+    "filename": "cowardlyLion.jpg"
+  }, 
+  {
+    "title": "Crash Test Dummies", 
+    "description": "Two Crash Test Dummies talk", 
+    "filename": "crashTestDummies.jpg"
+  }, 
+  {
+    "title": "Customer Community", 
+    "description": "A customer community brainstorms around the white board", 
+    "filename": "customerCommunity.jpg"
+  }, 
+  {
+    "title": "Dairy Factory", 
+    "description": "A large dairy factory with multiple steel holding tanks is seen through the haze", 
+    "filename": "dairy-factory-light.jpg"
+  }, 
+  {
+    "title": "Boy in disguise", 
+    "description": "A small boy with Groucho Marx disguise glasses", 
+    "filename": "decoratorIntent.jpg"
+  }, 
+  {
+    "title": "Elephant warning sign", 
+    "description": "An sign warning to watch out for elephants next to a highway", 
+    "filename": "elephant_warning_sign.jpg"
+  }, 
+  {
+    "title": "Euros", 
+    "description": "A northern europe adaptor lies on top of a stack of euro notes", 
+    "filename": "euro.jpg"
+  }, 
+  {
+    "title": "Pair programming", 
+    "description": "Two programmers in the middle of a pair programming session", 
+    "filename": "evantPairing.jpg"
+  }, 
+  {
+    "title": "Brainstorming session", 
+    "description": "Evant brainstorming session around a white board", 
+    "filename": "evantPlanning.jpg"
+  }, 
+  {
+    "title": "Evant Retrospective", 
+    "description": "A white board capturing the notes from an Evant Retrospective", 
+    "filename": "evantRetrospective.jpg"
+  }, 
+  {
+    "title": "Field explosion", 
+    "description": "A large explosion and fire in a field", 
+    "filename": "explosion.jpg"
+  }, 
+  {
+    "title": "False Negative Arrows", 
+    "description": "One arrow pointing one way embedded in an arrow pointing the other way", 
+    "filename": "falseNegativeArrows.jpg"
+  }, 
+  {
+    "title": "Family portrait", 
+    "description": "A family of four including small children smiles into the camera", 
+    "filename": "family.jpg"
+  }, 
+  {
+    "title": "Painting of a godly feast", 
+    "description": "A painting depicting a Feast Of The Ancient Gods with satyrs and demigods", 
+    "filename": "feastOfTheGods.jpg"
+  }, 
+  {
+    "title": "House fly", 
+    "description": "A close shot of a common house fly", 
+    "filename": "flyweight.jpg"
+  }, 
+  {
+    "title": "The Three Stooges", 
+    "description": "The Three Stooges where Larry and Moe are forcing Curly to be quiet", 
+    "filename": "forcing.jpg"
+  }, 
+  {
+    "title": "Garbage truck", 
+    "description": "A garbage truck goes about its business in a residential area", 
+    "filename": "garbage_truck.jpg"
+  }, 
+  {
+    "title": "Girl with static hair", 
+    "description": "A young girl's hair is filled with static cling and standing straight up on her head", 
+    "filename": "girlWithHair.jpg"
+  }, 
+  {
+    "title": "Man says to halt", 
+    "description": "A stranger in a dark coat and hat stands in a residential doorway and asks visitors to stop", 
+    "filename": "halt.jpg"
+  }, 
+  {
+    "title": "The hub of a wheel", 
+    "description": "The hub or center of an old spoked wheel", 
+    "filename": "hub.jpg"
+  }, 
+  {
+    "title": "Surgery", 
+    "description": "Doctors perform surgery in an operating room", 
+    "filename": "image.jpg"
+  }, 
+  {
+    "title": "Impressionist painting", 
+    "description": "An impressionist painting in blues and greens of a man paddling a row boat", 
+    "filename": "impressionism.jpg"
+  }, 
+  {
+    "title": "Lake bench", 
+    "description": "A misty park bench sits in front of a lake as the sun hovers on the horizon", 
+    "filename": "inspiration.jpg"
+  }, 
+  {
+    "title": "Jailbird", 
+    "description": "A man in an orange prison jump suit listens to a lawyer review his case", 
+    "filename": "jailbird.jpg"
+  }, 
+  {
+    "title": "Knowing when its done", 
+    "description": "A meat thermometer checks the internal temperature of a piece of white meat on a grill", 
+    "filename": "knowingWhenItsDone.jpg"
+  }, 
+  {
+    "title": "Iaocoon with snakes", 
+    "description": "A marble statue depicting Laoco\u00f6n, the son of Acoetes, a figure in Greek and Roman mythology", 
+    "filename": "laocoon.jpg"
+  }, 
+  {
+    "title": "Exhausted man", 
+    "description": "A man collapses in exhaustion at his desk", 
+    "filename": "lazyClass.jpg"
+  }, 
+  {
+    "title": "Line of cars", 
+    "description": "A row of cars in a parking lot", 
+    "filename": "line-of-cars.jpg"
+  }, 
+  {
+    "title": "Medical Syringes", 
+    "description": "A row of five medical syringes lying on a black surface", 
+    "filename": "medical-syringes.jpg"
+  }, 
+  {
+    "title": "Microprocessor", 
+    "description": "An enlarged picture of a microprocessor", 
+    "filename": "microprocessor.jpg"
+  }, 
+  {
+    "title": "Cyborg okay", 
+    "description": "A fully steel/electronic cyborg hand forms the okay sign", 
+    "filename": "mock.jpg"
+  }, 
+  {
+    "title": "Sheet music", 
+    "description": "A portion of a piece of sheet music", 
+    "filename": "music.jpg"
+  }, 
+  {
+    "title": "Nested expression", 
+    "description": "A flow diagram for a nested expression", 
+    "filename": "nested-expression.jpg"
+  }, 
+  {
+    "title": "BMW accessories", 
+    "description": "The accessories and options for a new BMW", 
+    "filename": "newest-car.jpg"
+  }, 
+  {
+    "title": "Open dialog window", 
+    "description": "An open dialog in Windows", 
+    "filename": "openDialog.jpg"
+  }, 
+  {
+    "title": "Migraine", 
+    "description": "A woman with a strong headache", 
+    "filename": "pain.jpg"
+  }, 
+  {
+    "title": "Bridge undergoing parallel change", 
+    "description": "The eastern span of the Bay Bridge as a new bridge is built next to the old yet still operating one", 
+    "filename": "parallelChange.jpg"
+  }, 
+  {
+    "title": "Penguins", 
+    "description": "A line of penguins", 
+    "filename": "penguins.jpg"
+  }, 
+  {
+    "title": "Nose pimple", 
+    "description": "A man looking in the mirror as he attempts to pop a pimple on his nose", 
+    "filename": "pimple.jpg"
+  }, 
+  {
+    "title": "Plan notecards", 
+    "description": "Notecards documenting what it cost and what we were thinking (or not thinking)", 
+    "filename": "plan.jpg"
+  }, 
+  {
+    "title": "Kanji painting", 
+    "description": "A woman in a traditional Japanese kimono paints a kanji", 
+    "filename": "prettyPrinter.jpg"
+  }, 
+  {
+    "title": "Room of programmers", 
+    "description": "A line of programmers in a large, open room", 
+    "filename": "programmers-dingy.jpg"
+  }, 
+  {
+    "title": "Project Community board", 
+    "description": "A white board listing the members of the project community and their roles", 
+    "filename": "projectCommunity.jpg"
+  }, 
+  {
+    "title": "Rotten Lemon", 
+    "description": "A rotten lemon covered in green mold", 
+    "filename": "rottenLemonSmells.jpg"
+  }, 
+  {
+    "title": "Refactoring to Patterns", 
+    "description": "A poster for the Refactoring to Pattern Interactive program", 
+    "filename": "rtpi.jpg"
+  }, 
+  {
+    "title": "Stack of rugs", 
+    "description": "A large stack of colorful rugs in reds and blues", 
+    "filename": "rugs.jpg"
+  }, 
+  {
+    "title": "Saint Nicolas Miracle", 
+    "description": "Painting depicting the miracle of St Nicolas bringing a child back to life", 
+    "filename": "saint-nicolas-bringing-a-child-back-to-life-325-mid.jpg"
+  }, 
+  {
+    "title": "Saint Nicolas grain miracle", 
+    "description": "A picture of Saint Nicolas miraculously filling the holds of the ships with grain", 
+    "filename": "saint-nicolas-miraculously-filling-the-holds-of-the-ships-with-grain-326-mid.jpg"
+  }, 
+  {
+    "title": "Dancing santas", 
+    "description": "A dancing line of santa clauses", 
+    "filename": "santas.jpg"
+  }, 
+  {
+    "title": "Three instances of scope", 
+    "description": "A white board capturing the three instances of scope: global, middle, and local", 
+    "filename": "scopes-instance.jpg"
+  }, 
+  {
+    "title": "Violinists", 
+    "description": "A pair of violinists play a sheet of music", 
+    "filename": "score.jpg"
+  }, 
+  {
+    "title": "Scrubber", 
+    "description": "A scrubber and old equipment", 
+    "filename": "scrubber-medium.jpg"
+  }, 
+  {
+    "title": "Servers", 
+    "description": "A server farm", 
+    "filename": "server.jpg"
+  }, 
+  {
+    "title": "A Show Of Hands", 
+    "description": "A speaker asks for a show of hands and everyone volunteers", 
+    "filename": "showOfHands.jpg"
+  }, 
+  {
+    "title": "Single Runner", 
+    "description": "A runner in a race circles a blue track", 
+    "filename": "singleRunnerOnTrack.jpg"
+  }, 
+  {
+    "title": "Programmers together", 
+    "description": "A circle of programmers working from a single large table", 
+    "filename": "sittingTogether.jpg"
+  }, 
+  {
+    "title": "Smart cat", 
+    "description": "A white cat wearing intellectual glasses", 
+    "filename": "smarty-cat.jpg"
+  }, 
+  {
+    "title": "Pipe smoker", 
+    "description": "A tuxedo-clad gentleman with slicked back hair smokes a pipe", 
+    "filename": "smoking-4of4.jpg"
+  }, 
+  {
+    "title": "Smooth Ride", 
+    "description": "A car driving down a smooth, open highway", 
+    "filename": "smoothRide.jpg"
+  }, 
+  {
+    "title": "So Cool Ride", 
+    "description": "A pickup truck with the license plate reading so cool", 
+    "filename": "socool.jpg"
+  }, 
+  {
+    "title": "Sprint Review", 
+    "description": "A Sprint Review session", 
+    "filename": "sprintReview.jpg"
+  }, 
+  {
+    "title": "Fighting stance", 
+    "description": "A man in a business suit takes up a fighting position", 
+    "filename": "stance.jpg"
+  }, 
+  {
+    "title": "Baby stork", 
+    "description": "A pick stork delivers a baby", 
+    "filename": "stork.jpg"
+  }, 
+  {
+    "title": "Storytesting", 
+    "description": "A brown sheet of paper captures the story testing information for a project", 
+    "filename": "storytesting.jpg"
+  }, 
+  {
+    "title": "Stunt double on fire", 
+    "description": "A stunt double on fire in a parking lot", 
+    "filename": "stunt-double.jpg"
+  }, 
+  {
+    "title": "Lake Castle", 
+    "description": "A medieval castle sits on a calm lake", 
+    "filename": "swampCastle.jpg"
+  }, 
+  {
+    "title": "Dancing Santas", 
+    "description": "Three dancing santa step out in a line", 
+    "filename": "three-santas.jpg"
+  }, 
+  {
+    "title": "World War I trenches", 
+    "description": "A picture of the trenches during World War I in Belgium", 
+    "filename": "trenches-belgium.jpg"
+  }, 
+  {
+    "title": "Example of urban sprawl", 
+    "description": "An example of urban sprawl featuring low-lying suburban development", 
+    "filename": "urbanSprawlExample.jpg"
+  }, 
+  {
+    "title": "Simple Mona Lisa", 
+    "description": "A example of a stylized, deconstructed Mona Lisa", 
+    "filename": "verySimpleMona.jpg"
+  }, 
+  {
+    "title": "Visitor", 
+    "description": "A chart of a visitor expression", 
+    "filename": "visitor.jpg"
+  }, 
+  {
+    "title": "Waiting woman", 
+    "description": "A single woman waits at a chair in an empty room", 
+    "filename": "waiting.jpg"
+  }, 
+  {
+    "title": "Walking Skeleton", 
+    "description": "A walking skeleton strides across a dark room", 
+    "filename": "walking-skeleton.jpg"
+  }, 
+  {
+    "title": "Extreme Programming cards", 
+    "description": "A deck of Extreme Programming cards from Industrial Logic", 
+    "filename": "xpDeck.jpg"
+  }, 
+  {
+    "title": "Xrays", 
+    "description": "A woman examines a series of x-rays at her computer", 
+    "filename": "xrays.jpg"
+  }, 
+  {
+    "title": "Laughing Zebra", 
+    "description": "A zebra laughs or brays with extreme enthusiasm", 
+    "filename": "zebra-xsmall.jpg"
+  }
+]

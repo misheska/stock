@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Thank you!</h2>
+<div class="thanks">
+    <span class="price">Price: ${{ amount }}</span>
+    <img src="/static/original/{{ photo.filename }}">
+    <span>Right click to save your stock photo</span>
+    <a href="/">Continue Shopping</a>
+</div>
+{% endblock %}

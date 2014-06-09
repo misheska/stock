@@ -1,0 +1,81 @@
+Cheat Sheet.
+
+Your personal server provides you with:
+
+    A svn server, OS X / Linux: svn://[SERVER_NAME]/stock
+
+    The stock photo server: http://[SERVER_NAME]
+
+    As part of the stock photo server, you get a Feature Flipper panel: http://[SERVER]/feature
+
+    Jenkins, which automatically tests and deploys your changes: http://[SERVER_NAME]/jenkins
+
+    A firewalled MySQL for the stock photo server to use.
+
+    It also allows raw SSH access: ssh ubuntu@[SERVER_NAME], the password is IndustrialLogic
+
+
+SVN commands:
+
+    Create an initial checkout of a repository in ./stock:
+    svn checkout [repos url] ./stock  
+
+    Show what files have been changed and need to be committed:
+    svn status
+
+    Commit and push a change:
+    svn commit -m "Commit Message"
+
+
+Django Cheat Sheet:
+
+    Creating a model:
+
+        Models go in photos/models.py and are subclasses of model.Models. They have members that are Field instances. For example:
+
+        class PurchaseLog(models.Model):
+            timestamp = models.DateTimeField(auto_now_add=True)
+            photo = models.ForeignKey(Photo)
+            amount = models.DecimalField(max_digits=10, decimal_places=2)
+
+        Will create a table called photos_purchase_log (photos is the name of the django app). Here's the SQL schema:
+
+        CREATE TABLE "photos_purchaselog" (
+            "id" integer NOT NULL PRIMARY KEY,
+            "timestamp" datetime NOT NULL,
+            "photo_id" integer NOT NULL REFERENCES "photos_photo" ("id"),
+            "amount" decimal NOT NULL
+        )
+
+
+    Creating a new page (view):
+
+        View functions are added to photos/views.py, and return a rendered template.
+        For example, the stock photo homepage:
+
+        def index(request):
+            photos = Photo.objects.all()
+
+            context = {
+                'photos': photos,
+            }
+            return render(request, 'index.html', context)
+
+        This renders the templates/index.html file, passing into it the photos variable, in this case the
+        list of all photos from the database.
+
+        To make this view work, it needs to be wired up to a URL via a line in website/urls.py:
+
+            url(r'^$', 'photos.views.index'),
+
+        This line says if the URL path is empty, use "index" function in photos.views.py. The r'^$' part is a regular expression matching the empty string.
+
+        Need to handle POST data in request? Check to see if you're being posted too via request.method == "POST" and then
+        access the post data via request.POST.get('name')
+
+    Need to reset your database?
+
+        Delete photos.db and any migration in photos/migrations/ that you created and don't want, then run:
+        ./manage.py syncdb --noinput
+        ./manage.py migrate
+

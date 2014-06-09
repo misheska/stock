@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Checkout</h2>
+<div class="showcase">
+    <div class="photo_tile">
+        <a href="/details/{{ photo.id }}">
+            <img class="thumbnail" src="/static/thumbnail/{{ photo.filename }}" title="{{ photo.title }}">
+            <span class="title">{{ photo.title }}</span>
+        </a>
+    </div>
+</div>
+
+<div class="checkout">
+    <span>Cost: ${{ photo_price }}</span>
+    <form action="/buy" method="POST">
+        {% csrf_token %}
+        <input type="hidden" name="photo_id" value="{{ photo.id }}">
+        
+        <label for="name">Name on Credit Card</label>
+        <input type="text" name="name" id="name" size="36">
+
+        <label for="cc">Credit Card Number</label>
+        <input type="text" name="cc" id="cc" size="24">
+
+        <label for="exp">Credit Card Expiration</label>
+        <input type="text" name="exp" id="exp" size="6">
+
+        <input class="button green" type="submit" value="Buy Photo">
+    </div>
+</div>
+
+{% endblock %}

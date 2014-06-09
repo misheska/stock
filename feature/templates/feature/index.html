@@ -1,0 +1,30 @@
+<html>
+<style>
+body { font-size: 20px; }
+.warning { color: red; }
+.feature.enabled { color: #0c0; font-weight: bold; }
+.feature.disabled { color: #a00; }
+.feature input, .feature form { display: inline-block; }
+</style>
+<body>
+<h1>Features</h1>
+
+<ul>
+{% for feature, is_enabled in features_enabled %}
+    <li class="feature {{ is_enabled|yesno:"enabled,disabled" }}">
+        {{ feature.name }}: {{ is_enabled|yesno:"Enabled,Disabled" }}
+        <form action="set_enabled" method="POST">
+            {% csrf_token %}
+            <input type="hidden" name="name" value="{{ feature.name }}">
+            <input type="hidden" name="enabled" value="{{ is_enabled|yesno:"False,True" }}">
+            <input type="submit" value="Toggle">
+        </form>
+
+    </li>
+{% endfor %}
+</ul>
+{% if not features_enabled %}
+<h2 class="warning">Warning: No Features Defined</h2>
+{% endif %}
+</body>
+</html>

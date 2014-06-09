@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>{{ photo.title }}</h2>
+<div class="photo_details">
+    <img src="/static/watermark/{{ photo.filename }}">
+    <span class="description">{{ photo.description }}</span>
+    <form action="/checkout" method="POST">
+        {% csrf_token %}
+        <input type="hidden" name="photo_id" value="{{ photo.id }}">
+        <input class="button green" type="submit" value="Buy Photo">
+    </form>
+</div>
+
+{% endblock %}

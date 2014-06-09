@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<table class="purchase_log">
+    <tr>
+        <th>Filename</th>
+        <th>Title</th>
+        <th>Price</th>
+        <th>Timestamp</th>
+    </tr>
+    {% for log in logs %}
+        <tr>
+            <td><img src="/static/thumbnail/{{ log.photo.filename }}"></td>
+            <td>{{ log.photo.title }}</td>
+            <td>{{ log.amount }}</td>
+            <td>{{ log.timestamp }}</td>
+        </tr>
+    {% endfor %}
+<table>
+{% endblock %}

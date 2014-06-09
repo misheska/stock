@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<ul class="photo_tile_wall">
+{% for photo in photos %}
+    <li class="photo_tile">
+        <a href="/details/{{ photo.id }}">
+            <img class="thumbnail" src="/static/thumbnail/{{ photo.filename }}" title="{{ photo.title }}">
+            <span class="title">{{ photo.title }}</span>
+        </a>
+    </li>
+{% endfor %}
+</ul>
+{% endblock %}

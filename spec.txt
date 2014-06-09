@@ -1,0 +1,6 @@
+Implement coupon codes.
+    * Add an admin page to that generates codes.
+    * Each code should specify the % off.
+    * Codes may be entered on the /checkout page, as part of a new form
+    * The forms submit button ("Apply") should update the displayed price on the /checkout page
+    * The coupon code <form> element must use the id "coupon_code"
