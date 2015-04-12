@@ -8,10 +8,6 @@ from photos.models import Photo, PurchaseLog
 
 from photos.models import CouponCode
 
-from feature import Feature
-
-coupon_code_feature = Feature("coupon_codes")
-
 def index(request):
     photos = Photo.objects.all()
 
@@ -42,7 +38,6 @@ def checkout(request):
         'photo': photo,
         'photo_price': photo_price,
         'coupon_code': coupon_code,
-        'show_coupon_codes': coupon_code_feature.is_enabled(request),
     }
     return render(request, 'checkout.html', context)
 
