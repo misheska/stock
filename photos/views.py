@@ -31,9 +31,22 @@ def details(request, photo_id):
 def checkout(request):
     photo = get_object_or_404(Photo, id=request.POST.get('photo_id'))
 
+    photo_price = settings.PHOTO_PRICE
+
+    coupon_code = None
+    if request.method == "POST":
+        code = request.POST.get('code', '')
+        try:
+            coupon_code = CouponCode.objects.get(code=code)
+        except CouponCode.DoesNotExist:
+            pass
+        else:
+            photo_price = coupon_code.apply_discount(photo_price)
+
     context = {
         'photo': photo,
-        'photo_price': settings.PHOTO_PRICE,
+        'photo_price': photo_price,
+        'coupon_code': coupon_code,
         'show_coupon_codes': coupon_code_feature.is_enabled(request),
     }
     return render(request, 'checkout.html', context)

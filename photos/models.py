@@ -15,3 +15,6 @@ class PurchaseLog(models.Model):
 class CouponCode(models.Model):
     code = models.CharField(max_length=255, unique=True)
     discount_percentage = models.DecimalField(max_digits=3, decimal_places=0)
+
+    def apply_discount(self, price):
+        return price * (100 - self.discount_percentage) / 100
