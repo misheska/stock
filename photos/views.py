@@ -36,12 +36,7 @@ def checkout(request):
     coupon_code = None
     if request.method == "POST":
         code = request.POST.get('code', '')
-        try:
-            coupon_code = CouponCode.objects.get(code=code)
-        except CouponCode.DoesNotExist:
-            pass
-        else:
-            photo_price = coupon_code.apply_discount(photo_price)
+        photo_price, coupon_code = get_discount_info(code, photo_price)
 
     context = {
         'photo': photo,
@@ -57,7 +52,8 @@ def buy(request):
     cc = request.POST.get('cc')
     exp = request.POST.get('exp')
     name = request.POST.get('name')
-    price = settings.PHOTO_PRICE
+    code = request.POST.get('code')
+    price, coupon_code = get_discount_info(code, settings.PHOTO_PRICE)
 
     securepay.gateway.purchase(price, cc, exp, name)
     record_purchase(photo, price)
@@ -67,6 +63,14 @@ def buy(request):
         'amount': price,
     }
     return render(request, 'buy.html', context)
+
+def get_discount_info(code, price):
+    try:
+        coupon_code = CouponCode.objects.get(code=code)
+    except CouponCode.DoesNotExist:
+        return price, None
+    else:
+        return coupon_code.apply_discount(price), coupon_code
 
 def record_purchase(photo, amount):
     PurchaseLog.objects.create(

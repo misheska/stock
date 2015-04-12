@@ -25,10 +25,11 @@
     <form action="/buy" method="POST">
         {% csrf_token %}
         <input type="hidden" name="photo_id" value="{{ photo.id }}">
-        <input type="hidden" name="code" value="{{ coupon_code.code }}">
 
-        <span>Cost: {{ photo_price }}</span>
-        
+        {% if coupon_code %}
+            <input type="hidden" name="code" value="{{ coupon_code.code }}">
+        {% endif %}
+
         <label for="name">Name on Credit Card</label>
         <input type="text" name="name" id="name" size="36">
 
