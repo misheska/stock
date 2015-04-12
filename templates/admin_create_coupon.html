@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<center>
+<form id="create_coupon" method="POST">
+    {% csrf_token %}
+    <label for="code">Code:</label>
+    <input type="text" id="code" name="code"></input>
+    <label for="discount_percentage">Discount Percentage:</label>
+    <input type="text" id="discount_percentage" name="discount_percentage"></input>
+    <input type="submit" value="Create Coupon Code">
+</form>
+</center>
+{% endblock %}

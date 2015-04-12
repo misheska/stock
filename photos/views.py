@@ -6,6 +6,11 @@ from django.conf import settings
 import securepay.gateway
 from photos.models import Photo, PurchaseLog
 
+from photos.models import CouponCode
+
+from feature import Feature
+
+coupon_code_feature = Feature("coupon_codes")
 
 def index(request):
     photos = Photo.objects.all()
@@ -29,6 +34,7 @@ def checkout(request):
     context = {
         'photo': photo,
         'photo_price': settings.PHOTO_PRICE,
+        'show_coupon_codes': coupon_code_feature.is_enabled(request),
     }
     return render(request, 'checkout.html', context)
 
@@ -62,3 +68,20 @@ def purchase_log(request):
         'logs': logs,
     }
     return render(request, 'purchase_log.html', context)
+
+def create_coupon(request):
+    if request.method == "POST":
+        percentage = int(request.POST.get('discount_percentage', 0))
+        code = request.POST.get('code')
+
+        coupon_code = CouponCode.objects.create(
+            discount_percentage=percentage,
+            code=code,
+        )
+
+        context = {
+            'coupon_code': coupon_code
+        }
+        return render(request, 'admin_coupon_created.html', context)
+
+    return render(request, 'admin_create_coupon.html', {})

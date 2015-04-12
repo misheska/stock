@@ -13,4 +13,5 @@ urlpatterns = patterns('',
     url(r'^checkout$', 'photos.views.checkout'),
     url(r'^admin/purchase_log$', 'photos.views.purchase_log'),
     url(r'^$', 'photos.views.index'),
+    url(r'^admin/create_coupon$', 'photos.views.create_coupon'),
 )

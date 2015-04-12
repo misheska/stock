@@ -12,6 +12,16 @@
 
 <div class="checkout">
     <span>Cost: ${{ photo_price }}</span>
+    {% if show_coupon_codes %}
+        <form action="/checkout" method="POST" id="coupon_code">
+            {% csrf_token %}
+            <input type="hidden" name="photo_id" value="{{ photo.id }}">
+            <span>Have a coupon code?</span>
+            <input type="text" name="code">
+            <input type="submit" value="Apply Coupon">
+        </form>
+    {% endif %}
+
     <form action="/buy" method="POST">
         {% csrf_token %}
         <input type="hidden" name="photo_id" value="{{ photo.id }}">
